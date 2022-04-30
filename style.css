@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+article{
+    width: 140px;
+    height: 260px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.principal{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+}
+
+h2{
+    color: white;
+    font-size: 10px;
+}
+
+.description{
+    color: hsl(215, 51%, 70%);
+    font-size: 8px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeth{
+    width: 4px;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    font-size: 8px;
+}
+
+.clock{
+    width: 6px;
+    display: inline;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.days{
+    font-size: 8px;
+    color: hsl(215, 51%, 70%);
+    display: inline;
+}
+
+hr{
+    background-color: hsl(215, 51%, 70%);
+    height: 0.5px;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.avatar{
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.madeby{
+    color: hsl(215, 51%, 70%);
+    font-size: 8px;
+}
+
+span{
+    color: white;
+}
